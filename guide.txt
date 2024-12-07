@@ -1,0 +1,5 @@
+Crazy to do in react but here is how to get the select stuff:
+
+onChange={(e) => handleSelect(e.target.options[e.target.selectedIndex].innerHTML)}
+
+then e.target.value for the offset
